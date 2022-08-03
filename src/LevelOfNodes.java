@@ -18,7 +18,6 @@ class Pair{
 public class LevelOfNodes{
 
     static int levelOfNode(ArrayList<ArrayList<Integer>> adj, int v, int x){
-
         //if node is 0, which means the first element then return 0
         if(x==0){
             return 0;
