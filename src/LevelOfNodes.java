@@ -47,7 +47,7 @@ public class LevelOfNodes{
                 if(visited[connection]==0){
                     visited[connection]=1;
                     if(connection ==x){
-                        return level +1;
+                        return level +1;   //level +1 as the connection has one level next to parent connection
                     }else{
                         Pair pair1 = new Pair(connection, level +1);
                         q.add(pair1);
